@@ -1,0 +1,6 @@
+[mysqld]
+server-id=<NODE>
+log-bin=/var/lib/mysql/log/mysql-bin.log
+relay-log=/var/lib/mysql/log/mysql-relay-bin.log
+<CONF_SYNC>
+# expire_logs_days=7

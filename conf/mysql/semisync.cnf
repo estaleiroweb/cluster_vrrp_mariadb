@@ -1,0 +1,5 @@
+[mysqld]
+server-id = <NODE>
+rpl_semi_sync_master_enabled = 1
+log-bin=/var/lib/mysql/log/mysql-bin.log
+<CONF_SEMISYNC>

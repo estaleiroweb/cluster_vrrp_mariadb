@@ -1,0 +1,7 @@
+[mysqld]
+server-id=<NODE>
+log-bin=/var/lib/mysql/log/mysql-bin.log
+relay-log=/var/lib/mysql/log/mysql-relay-bin.log
+binlog-format=ROW
+gtid-mode=ON
+enforce-gtid-consistency=ON
