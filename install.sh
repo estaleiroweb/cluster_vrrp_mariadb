@@ -48,5 +48,5 @@ for i in $(seq 1 $MAX_NODES); do
 	for fn in 04_conf_VRRP 05_conf_haproxy 07_conf_maxscale; do 
 		exec $fn $i
 	done
-	break
+	# break
 done
